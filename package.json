@@ -4,7 +4,7 @@
   "description": "",
   "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "build": "webpack",
     "watch": "webpack --watch",
     "prepare": "husky install"
@@ -31,6 +31,8 @@
     "eslint-plugin-import": "^2.25.3",
     "html-webpack-plugin": "^5.5.0",
     "husky": "^7.0.4",
+    "jest": "^27.4.5",
+    "jest-cli": "^27.4.5",
     "lint-staged": "^12.1.2",
     "prettier": "2.5.1",
     "style-loader": "^3.3.1",
