@@ -1,10 +1,16 @@
 {
   "name": "battleship",
+  "jest": {
+    "verbose": true,
+    "testEnvironment": "jest-environment-node",
+    "transform": {}
+  },
+  "type": "module",
   "version": "1.0.0",
   "description": "",
   "private": true,
   "scripts": {
-    "test": "jest",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
     "build": "webpack",
     "watch": "webpack --watch",
     "prepare": "husky install"

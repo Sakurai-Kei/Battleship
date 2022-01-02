@@ -37,7 +37,4 @@ class Ships {
   }
 }
 
-module.exports = {
-  Ships,
-  shipTypes,
-};
+export { Ships, shipTypes };
